@@ -8,6 +8,11 @@ export class NavigationPages {
   btnFilterTitle = ".elementor-toggle-title";
   divFilterTab = "#elementor-tab-content-1091";
 
+  //Dropdown
+  dropdownMediaType = ".jet-select__control";
+  dropdownMediaType_AudioValue = "7948";
+  dropdownMediaType_VideoValue = "7949";
+  //Dropdown
 
   checkIfElementNotVisible(selector: string) {
     captureSreenshot(1000);
@@ -21,4 +26,8 @@ export class NavigationPages {
     cy.get(selector).should('be.visible');
   }
 
+  selectDropdownOptionByValue(value: string) {
+    cy.get(this.dropdownMediaType).select(value);
+    captureSreenshot(3000);
+  }
 }
