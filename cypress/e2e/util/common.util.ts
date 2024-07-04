@@ -25,6 +25,14 @@ export function checkIfElementIsVisible(selector: string) {
   captureSreenshot(500);
 }
 
+export function checkIfElementExist(selector: string) {
+  return cy.get(selector).should('exist');
+}
+
+export function checkIfElementNotExist(selector: string) {
+  return cy.get(selector).should('not.exist');
+}
+
 export function checkIfElementIsClickable(selector: string) {
   cy.get(selector).click();
 

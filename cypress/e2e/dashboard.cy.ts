@@ -1,6 +1,7 @@
 // Import common util
 import {
-  checkIfElementIsClickable,
+  checkIfElementExist,
+  checkIfElementNotExist,
   checkStatus200ForLink,
 } from "./util/common.util";
 
@@ -13,30 +14,17 @@ describe("Dashboard page", () => {
     cy.visit("/teachings-library");
   });
 
-  describe.skip("Item card", () => {
-    it("card: Image - should be clickable", () => {
-      checkStatus200ForLink(dashboardPages.btnCardTitle);
-    });
-    it("card: Title - should be clickable", () => {
-      checkStatus200ForLink(dashboardPages.btnCardTitle);
-    });
-    it("card: Author - should be clickable", () => {
-      checkStatus200ForLink(dashboardPages.btnCardTitle);
-    });
-  });
-
-  const goToNextPage = () => {
-    cy.get("@nextButton")
-      .invoke("attr", "disabled")
-      .then((disabled) => {
-        cy.get("@nextButton").should('exist');
-        if (disabled === "disabled") {
-          cy.get("@nextButton").should("have.attr", "disabled");
-        } else {
-          cy.get("@nextButton").click().then(goToNextPage);
-        }
-      });
-  };
+  // describe("Item card", () => {
+  //   it("card: Image - should be clickable", () => {
+  //     checkStatus200ForLink(dashboardPages.btnCardTitle);
+  //   });
+  //   it("card: Title - should be clickable", () => {
+  //     checkStatus200ForLink(dashboardPages.btnCardTitle);
+  //   });
+  //   it("card: Author - should be clickable", () => {
+  //     checkStatus200ForLink(dashboardPages.btnCardTitle);
+  //   });
+  // });
 
   function maybeClickNext(page = 1) {
     // the Next button is always present
@@ -58,32 +46,57 @@ describe("Dashboard page", () => {
           cy.log(`Page ${page}`);
           // not the end yet, sleep half a second for clarity,
           // click the button, and recursively check again
-          cy.get(btnNext)
-            .click()
-            .then(() => maybeClickNext(page + 1));
+
+          describe(`Page #${page}: Items`, () => {
+            cy.wait(3000).get('.elementor-loop-container.elementor-grid > div').each(($event,index) => {
+              cy.wrap($event).within(() => {
+
+                // it(`item #${index}: Image - should be clickable`, () => {
+                  checkStatus200ForLink(dashboardPages.btnCardTitle);
+                // });
+                // it(`item #${index}: Title - should be clickable`, () => {
+                  checkStatus200ForLink(dashboardPages.btnCardTitle);
+                // });
+                // it(`item #${index}: Author - should be clickable`, () => {
+                  checkStatus200ForLink(dashboardPages.btnCardTitle);
+                // });
+              });
+            });
+
+            
+          });
+
+          
+
+          if (checkIfElementExist(btnNext)) {
+            cy.get(btnNext)
+              .click()
+              .then(() => maybeClickNext(page + 1));
+          }
         }
       });
   }
 
   describe("Pagination", () => {
     it("clicks the Next button until we get to the last page", () => {
-      cy.contains("Next").as("nextButton").click({force:true});
-      goToNextPage();
-
       // the HTML table on the page is paginated
       // can you click the "Next" button until
       // we get to the very last page?
       // button selector ".prev-next > .jet-filters-pagination__link"
 
-      // maybeClickNext();
+      maybeClickNext();
 
-      // cy.log("**confirm we are on the last page**");
+      cy.log("**confirm we are on the last page**");
       // cy.get(".prev-next > .jet-filters-pagination__link").should("be.disabled");
       // cy.get("[value=last]").should("be.disabled");
     });
+
+    // it("Prev button should not be visible", () => {
+    //   checkIfElementNotExist(".jet-filters-pagination__item .prev-next .prev");
+    // });
   });
 
-  describe.skip("button: Donate", () => {
+  describe("button: Donate", () => {
     it("Donate button - should be clickable", () => {
       cy.get(dashboardPages.btnDonate).click();
     });
