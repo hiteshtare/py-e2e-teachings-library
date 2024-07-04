@@ -1,6 +1,6 @@
 # master branch
 
-## _Live Demo >> [Allure Reports using Cypress](https://vrt.yssofindia.org/e2e/py-e2e-preview-links/allure-reports/#)_
+## _Live Demo >> [Allure Reports using Cypress](https://vrt.yssofindia.org/e2e/py-e2e-teachings-library/allure-reports/#)_
   
 ### Run the Test suite for :  
 - _[Test site](https://test.yssofindia.org/)_ - npm run test:staging
