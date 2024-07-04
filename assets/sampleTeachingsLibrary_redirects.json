@@ -1,0 +1,62 @@
+{
+    "plugin": {
+        "version": "5.4.2",
+        "date": "Wed, 12 Jun 2024 13:45:04 +0000"
+    },
+    "groups": [
+        {
+            "id": 24,
+            "name": "Teachings Library",
+            "redirects": 0,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        }
+    ],
+    "redirects": [
+        {
+            "url": "/blog/the-mother-aspect-of-god-by-swami-anandamoy-giri",
+            "match_url": "/blog/the-mother-aspect-of-god-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-mother-aspect-of-god-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/making-our-inner-relationship-with-god-more-dynamic-by-swami-satyananda-giri",
+            "match_url": "/blog/making-our-inner-relationship-with-god-more-dynamic-by-swami-satyananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/making-our-inner-relationship-with-god-more-dynamic-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        }
+    ]
+}

@@ -1,0 +1,3714 @@
+{
+    "plugin": {
+        "version": "5.4.2",
+        "date": "Wed, 12 Jun 2024 13:45:04 +0000"
+    },
+    "groups": [
+        {
+            "id": 24,
+            "name": "Teachings Library",
+            "redirects": 0,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        }
+    ],
+    "redirects": [
+        {
+            "url": "/blog/discovering-our-immortal-nature-by-swami-jayananda-giri",
+            "match_url": "/blog/discovering-our-immortal-nature-by-swami-jayananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/discovering-our-immortal-nature-by-swami-jayananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/change-yourself-through-yoga-international-day-of-yoga-talk-and-guided-meditation-by-ranjana-mai",
+            "match_url": "/blog/change-yourself-through-yoga-international-day-of-yoga-talk-and-guided-meditation-by-ranjana-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/change-yourself-through-yoga-international-day-of-yoga-talk-and-guided-meditation-by-ranjana-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-eternal-love-of-god-by-priya-mai",
+            "match_url": "/blog/the-eternal-love-of-god-by-priya-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-eternal-love-of-god-by-priya-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-kriya-yoga-path-of-divine-living-by-swami-chidananda-giri",
+            "match_url": "/blog/the-kriya-yoga-path-of-divine-living-by-swami-chidananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-kriya-yoga-path-of-divine-living-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/overcoming-fears-and-mental-ruts-using-the-mind-to-free-the-mind-by-swami-govindananda-giri",
+            "match_url": "/blog/overcoming-fears-and-mental-ruts-using-the-mind-to-free-the-mind-by-swami-govindananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/overcoming-fears-and-mental-ruts-using-the-mind-to-free-the-mind-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/taking-control-of-your-lifes-destiny-by-swami-vishwananda-giri",
+            "match_url": "/blog/taking-control-of-your-lifes-destiny-by-swami-vishwananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/taking-control-of-your-lifes-destiny-by-swami-vishwananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/do-we-live-one-or-many-lives-by-swami-padmananda-giri",
+            "match_url": "/blog/do-we-live-one-or-many-lives-by-swami-padmananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/do-we-live-one-or-many-lives-by-swami-padmananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-mother-aspect-of-god-by-swami-anandamoy-giri",
+            "match_url": "/blog/the-mother-aspect-of-god-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-mother-aspect-of-god-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/change-your-habits-by-swami-anantananda-giri",
+            "match_url": "/blog/change-your-habits-by-swami-anantananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/change-your-habits-by-swami-anantananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-true-meaning-of-salvation-by-swami-nakulananda-giri",
+            "match_url": "/blog/the-true-meaning-of-salvation-by-swami-nakulananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-true-meaning-of-salvation-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/peace-and-prosperity-through-kriya-yoga-by-swami-ishwarananada-giri",
+            "match_url": "/blog/peace-and-prosperity-through-kriya-yoga-by-swami-ishwarananada-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/peace-and-prosperity-through-kriya-yoga-by-swami-ishwarananada-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "hi/blog/peace-and-prosperity-through-kriya-yoga-by-swami-ishwarananada-giri",
+            "match_url": "hi/blog/peace-and-prosperity-through-kriya-yoga-by-swami-ishwarananada-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/peace-and-prosperity-through-kriya-yoga-by-swami-ishwarananada-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/choosing-to-be-happy-by-swami-ishtananda-giri",
+            "match_url": "/blog/choosing-to-be-happy-by-swami-ishtananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/choosing-to-be-happy-by-swami-ishtananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/look-always-to-the-light-by-sri-mrinalini-mata",
+            "match_url": "/blog/look-always-to-the-light-by-sri-mrinalini-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/look-always-to-the-light-by-sri-mrinalini-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/forging-divine-consciousness-in-the-fires-of-daily-existence-by-swami-bhumananda-giri",
+            "match_url": "/blog/forging-divine-consciousness-in-the-fires-of-daily-existence-by-swami-bhumananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/forging-divine-consciousness-in-the-fires-of-daily-existence-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/making-god-the-companion-of-our-lives-by-swami-pavitrananda-giri",
+            "match_url": "/blog/making-god-the-companion-of-our-lives-by-swami-pavitrananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/making-god-the-companion-of-our-lives-by-swami-pavitrananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/growing-in-faith-and-unconditional-love-by-bhakti-mai",
+            "match_url": "/blog/growing-in-faith-and-unconditional-love-by-bhakti-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/growing-in-faith-and-unconditional-love-by-bhakti-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/experiencing-the-nature-of-the-soul-by-swami-saralananda-giri",
+            "match_url": "/blog/experiencing-the-nature-of-the-soul-by-swami-saralananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/experiencing-the-nature-of-the-soul-by-swami-saralananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-purpose-of-life-by-swami-satyananda-giri",
+            "match_url": "/blog/the-purpose-of-life-by-swami-satyananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-purpose-of-life-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/experiencing-the-grace-love-guidance-and-eternal-friendship-of-the-guru-by-swami-chidananda-giri",
+            "match_url": "/blog/experiencing-the-grace-love-guidance-and-eternal-friendship-of-the-guru-by-swami-chidananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/experiencing-the-grace-love-guidance-and-eternal-friendship-of-the-guru-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/behind-the-physical-cosmos-a-world-of-light-and-energy-by-swami-prafullananda-giri",
+            "match_url": "/blog/behind-the-physical-cosmos-a-world-of-light-and-energy-by-swami-prafullananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/behind-the-physical-cosmos-a-world-of-light-and-energy-by-swami-prafullananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-new-year-a-time-for-spiritual-renewal-by-swami-anandamoy-giri",
+            "match_url": "/blog/the-new-year-a-time-for-spiritual-renewal-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-new-year-a-time-for-spiritual-renewal-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-way-to-lasting-peace-and-happiness-by-ranjana-mai",
+            "match_url": "/blog/the-way-to-lasting-peace-and-happiness-by-ranjana-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-way-to-lasting-peace-and-happiness-by-ranjana-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/ways-to-conquer-fear-by-swami-nikhilananda-giri",
+            "match_url": "/blog/ways-to-conquer-fear-by-swami-nikhilananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/ways-to-conquer-fear-by-swami-nikhilananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/dynamic-will-can-change-your-life-by-swami-anandamoy-giri",
+            "match_url": "/blog/dynamic-will-can-change-your-life-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/dynamic-will-can-change-your-life-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/seeing-god-in-all-people-and-in-all-conditions-by-swami-sevananda-giri",
+            "match_url": "/blog/seeing-god-in-all-people-and-in-all-conditions-by-swami-sevananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/seeing-god-in-all-people-and-in-all-conditions-by-swami-sevananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/giving-thanks-for-lifes-blessings-by-swami-ishtananda",
+            "match_url": "/blog/giving-thanks-for-lifes-blessings-by-swami-ishtananda",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/giving-thanks-for-lifes-blessings-by-swami-ishtananda"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-importance-of-prayer-by-swami-kamalananda-giri",
+            "match_url": "/blog/the-importance-of-prayer-by-swami-kamalananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-importance-of-prayer-by-swami-kamalananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-bhagavad-gita-masterful-guide-for-everyday-spiritual-living-by-swami-chidananda-giri",
+            "match_url": "/blog/the-bhagavad-gita-masterful-guide-for-everyday-spiritual-living-by-swami-chidananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-bhagavad-gita-masterful-guide-for-everyday-spiritual-living-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/swami-chidanandaji-on-the-universal-blessings-of-a-true-scripture-video",
+            "match_url": "/blog/swami-chidanandaji-on-the-universal-blessings-of-a-true-scripture-video",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/address-at-the-release-of-hindi-translation-of-god-talks-with-arjuna-the-bhagavad-gita"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/mastering-your-habits-by-swami-govindananda-giri",
+            "match_url": "/blog/mastering-your-habits-by-swami-govindananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/mastering-your-habits-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/making-our-inner-relationship-with-god-more-dynamic-by-swami-satyananda-giri",
+            "match_url": "/blog/making-our-inner-relationship-with-god-more-dynamic-by-swami-satyananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/making-our-inner-relationship-with-god-more-dynamic-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/karma-yoga-balancing-activity-and-meditation-by-sri-daya-mata",
+            "match_url": "/blog/karma-yoga-balancing-activity-and-meditation-by-sri-daya-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/karma-yoga-balancing-activity-and-meditation-by-sri-daya-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-be-a-friend-to-all-by-swami-sevananda-giri",
+            "match_url": "/blog/how-to-be-a-friend-to-all-by-swami-sevananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-be-a-friend-to-all-by-swami-sevananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-rise-above-pressures-and-problems-by-ranjana-mai",
+            "match_url": "/blog/how-to-rise-above-pressures-and-problems-by-ranjana-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-rise-above-pressures-and-problems-by-ranjana-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/a-spiritual-approach-to-world-peace-by-swami-bhumananda-giri",
+            "match_url": "/blog/a-spiritual-approach-to-world-peace-by-swami-bhumananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/a-spiritual-approach-to-world-peace-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/kriya-yoga-portal-to-the-infinite-by-swami-anandamoy-giri",
+            "match_url": "/blog/kriya-yoga-portal-to-the-infinite-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/kriya-yoga-portal-to-the-infinite-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-commune-with-god-through-devotion-by-swami-jayananda-giri",
+            "match_url": "/blog/how-to-commune-with-god-through-devotion-by-swami-jayananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-commune-with-god-through-devotion-by-swami-jayananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/a-spiritual-approach-to-family-life-by-priya-mai",
+            "match_url": "/blog/a-spiritual-approach-to-family-life-by-priya-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/a-spiritual-approach-to-family-life-by-priya-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/a-heart-aflame-developing-a-loving-relationship-with-god-by-sri-daya-mata",
+            "match_url": "/blog/a-heart-aflame-developing-a-loving-relationship-with-god-by-sri-daya-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/a-heart-aflame-developing-a-loving-relationship-with-god-by-sri-daya-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-overcome-nervousness-by-swami-sattvananda-giri",
+            "match_url": "/blog/how-to-overcome-nervousness-by-swami-sattvananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-overcome-nervousness-by-swami-sattvananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-spiritual-art-of-getting-along-with-others-by-swami-nakulananda-giri",
+            "match_url": "/blog/the-spiritual-art-of-getting-along-with-others-by-swami-nakulananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-spiritual-art-of-getting-along-with-others-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/workshop-finding-spiritual-balance-in-your-life-by-ranjana-mai",
+            "match_url": "/blog/workshop-finding-spiritual-balance-in-your-life-by-ranjana-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/workshop-finding-spiritual-balance-in-your-life-by-ranjana-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/developing-an-unconquerable-will-by-swami-achalananda-giri",
+            "match_url": "/blog/developing-an-unconquerable-will-by-swami-achalananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/developing-an-unconquerable-will-by-swami-achalananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/finding-god-in-family-life-by-swami-ishtananda-giri",
+            "match_url": "/blog/finding-god-in-family-life-by-swami-ishtananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/finding-god-in-family-life-by-swami-ishtananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-devotion-reveals-the-invisible-god-by-swami-kamalananda-giri",
+            "match_url": "/blog/how-devotion-reveals-the-invisible-god-by-swami-kamalananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-devotion-reveals-the-invisible-god-by-swami-kamalananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/self-esteem-a-spiritual-perspective-by-mukti-mata",
+            "match_url": "/blog/self-esteem-a-spiritual-perspective-by-mukti-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/self-esteem-a-spiritual-perspective-by-mukti-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/what-is-salvation-by-swami-prafullananda-giri",
+            "match_url": "/blog/what-is-salvation-by-swami-prafullananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/what-is-salvation-by-swami-prafullananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-mother-aspect-of-god-by-swami-bhumananda-giri",
+            "match_url": "/blog/the-mother-aspect-of-god-by-swami-bhumananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-mother-aspect-of-god-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-perceive-gods-presence-in-the-stillness-of-meditation-by-swami-saralananda-giri",
+            "match_url": "/blog/how-to-perceive-gods-presence-in-the-stillness-of-meditation-by-swami-saralananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-perceive-gods-presence-in-the-stillness-of-meditation-by-swami-saralananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-purpose-of-life-by-swami-nakulananda-giri",
+            "match_url": "/blog/the-purpose-of-life-by-swami-nakulananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-purpose-of-life-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/creating-world-unity-through-yoga-meditation-by-swami-ritananda-giri",
+            "match_url": "/blog/creating-world-unity-through-yoga-meditation-by-swami-ritananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/creating-world-unity-through-yoga-meditation-by-swami-ritananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-importance-of-a-true-guru-by-swami-anandamoy-giri",
+            "match_url": "/blog/the-importance-of-a-true-guru-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-importance-of-a-true-guru-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-personal-approach-to-god-by-swami-bhaktananda-giri",
+            "match_url": "/blog/the-personal-approach-to-god-by-swami-bhaktananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-personal-approach-to-god-by-swami-bhaktananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/sustaining-a-joyful-heart-in-times-of-adversity-by-swami-sevananda-giri",
+            "match_url": "/blog/sustaining-a-joyful-heart-in-times-of-adversity-by-swami-sevananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/sustaining-a-joyful-heart-in-times-of-adversity-by-swami-sevananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/building-our-relationships-on-a-spiritual-foundation-by-bhakti-mai",
+            "match_url": "/blog/building-our-relationships-on-a-spiritual-foundation-by-bhakti-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/building-our-relationships-on-a-spiritual-foundation-by-bhakti-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/finding-joy-in-plain-living-and-high-thinking-by-swami-satyananda-giri",
+            "match_url": "/blog/finding-joy-in-plain-living-and-high-thinking-by-swami-satyananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/finding-joy-in-plain-living-and-high-thinking-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/removing-mental-ruts-with-new-ways-of-living-by-swami-vishwananda-giri",
+            "match_url": "/blog/removing-mental-ruts-with-new-ways-of-living-by-swami-vishwananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/removing-mental-ruts-with-new-ways-of-living-by-swami-vishwananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/developing-dynamic-will-power-by-swami-govindananda-giri",
+            "match_url": "/blog/developing-dynamic-will-power-by-swami-govindananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/developing-dynamic-will-power-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/blog-concentration-key-to-communion-with-god-by-swami-ishtananda-giri",
+            "match_url": "/blog/blog-concentration-key-to-communion-with-god-by-swami-ishtananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/concentration-key-to-communion-with-god-by-swami-ishtananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/blog-coping-with-lifes-test-by-sri-mrinalini-mata",
+            "match_url": "/blog/blog-coping-with-lifes-test-by-sri-mrinalini-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/coping-with-lifes-tests-by-sri-mrinalini-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/giving-thanks-for-life-blessings-by-swami-kamalananda-giri",
+            "match_url": "/blog/giving-thanks-for-life-blessings-by-swami-kamalananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/giving-thanks-for-lifes-blessings-by-swami-kamalananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/finding-your-inner-strength-by-ranjana-mai",
+            "match_url": "/blog/finding-your-inner-strength-by-ranjana-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/finding-your-inner-strength-by-ranjana-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/giving-thanks-for-lifes-blessings",
+            "match_url": "/blog/giving-thanks-for-lifes-blessings",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/giving-thanks-for-lifes-blessings-attitudes-of-a-yogi-by-swami-jayananda"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-science-of-kriya-yoga-by-swami-bhumananda-giri",
+            "match_url": "/blog/the-science-of-kriya-yoga-by-swami-bhumananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-science-of-kriya-yoga-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/attunement-with-the-christ-consciousness-by-swami-prafullananda-giri",
+            "match_url": "/blog/attunement-with-the-christ-consciousness-by-swami-prafullananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/attunement-with-the-christ-consciousness-by-swami-prafullananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/yama-and-niyama-how-to-live-skills-for-inner-strength-and-freedom-by-swami-chidananda-giri",
+            "match_url": "/blog/yama-and-niyama-how-to-live-skills-for-inner-strength-and-freedom-by-swami-chidananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/yama-and-niyama-how-to-live-skills-for-inner-strength-and-freedom-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/change-your-life-with-the-practice-of-silence-by-swami-jayananda-giri",
+            "match_url": "/blog/change-your-life-with-the-practice-of-silence-by-swami-jayananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/change-your-life-with-the-practice-of-silence-by-swami-jayananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/a-world-in-transition-by-swami-anandamoy-giri",
+            "match_url": "/blog/a-world-in-transition-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/a-world-in-transition-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/awakening-divine-memory-by-swami-ritananda-giri",
+            "match_url": "/blog/awakening-divine-memory-by-swami-ritananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/awakening-divine-memory-by-swami-ritananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/bringing-the-power-of-joy-into-our-lives-by-swami-achalananda-giri",
+            "match_url": "/blog/bringing-the-power-of-joy-into-our-lives-by-swami-achalananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/bringing-the-power-of-joy-into-our-lives-by-swami-achalananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-find-peace-in-todays-world-by-swami-sevananda-giri",
+            "match_url": "/blog/how-to-find-peace-in-todays-world-by-swami-sevananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-find-peace-in-todays-world-by-swami-sevananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-yoga-sadhana-that-brings-gods-love-and-bliss-by-sri-mrinalini-mata",
+            "match_url": "/blog/the-yoga-sadhana-that-brings-gods-love-and-bliss-by-sri-mrinalini-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-yoga-sadhana-that-brings-gods-love-and-bliss-by-sri-mrinalini-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/cultivating-the-divine-qualities-that-lead-to-self-realization-by-priya-mai",
+            "match_url": "/blog/cultivating-the-divine-qualities-that-lead-to-self-realization-by-priya-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/cultivating-the-divine-qualities-that-lead-to-self-realization-by-priya-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-importance-of-developing-evenmindedness-by-swami-muktananda-giri",
+            "match_url": "/blog/the-importance-of-developing-evenmindedness-by-swami-muktananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-importance-of-developing-evenmindedness-by-swami-muktananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/a-blessing-from-mahavatar-babaji-by-sri-daya-mata",
+            "match_url": "/blog/a-blessing-from-mahavatar-babaji-by-sri-daya-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/a-blessing-from-mahavatar-babaji-by-sri-daya-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/creating-a-meaningful-personal-relationship-with-god-by-swami-anilananda-giri",
+            "match_url": "/blog/creating-a-meaningful-personal-relationship-with-god-by-swami-anilananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/creating-a-meaningful-personal-relationship-with-god-by-swami-anilananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-gurus-unconditional-love-for-each-disciple-by-uma-mata",
+            "match_url": "/blog/the-gurus-unconditional-love-for-each-disciple-by-uma-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-gurus-unconditional-love-for-each-disciple-by-uma-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/living-with-a-positive-and-joy-filled-attitude-by-namita-mai",
+            "match_url": "/blog/living-with-a-positive-and-joy-filled-attitude-by-namita-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/living-with-a-positive-and-joy-filled-attitude-by-namita-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-improve-your-attention-and-concentration-by-swami-govindananda-giri",
+            "match_url": "/blog/how-to-improve-your-attention-and-concentration-by-swami-govindananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-improve-your-attention-and-concentration-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/scientific-healing-by-gods-infinite-cosmic-energy-by-swami-bhumananda-giri",
+            "match_url": "/blog/scientific-healing-by-gods-infinite-cosmic-energy-by-swami-bhumananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/scientific-healing-by-gods-infinite-cosmic-energy-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/rediscovering-your-higher-self",
+            "match_url": "/blog/rediscovering-your-higher-self",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/rediscovering-your-higher-self-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/facing-lifes-challenges-with-courage-and-faith",
+            "match_url": "/blog/facing-lifes-challenges-with-courage-and-faith",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/facing-lifes-challenges-with-courage-and-faith-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/gods-nature-in-the-mother",
+            "match_url": "/blog/gods-nature-in-the-mother",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/gods-nature-in-the-mother-by-draupadi-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/taking-shelter-in-god",
+            "match_url": "/blog/taking-shelter-in-god",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/taking-shelter-in-god-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-liberating-power-of-affirmation",
+            "match_url": "/blog/the-liberating-power-of-affirmation",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-liberating-power-of-affirmation-by-swami-prafullananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/kriya-yoga-science-of-spiritual-living-for-the-modern-age-by-swami-chidananda-giri",
+            "match_url": "/blog/kriya-yoga-science-of-spiritual-living-for-the-modern-age-by-swami-chidananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/kriya-yoga-science-of-spiritual-living-for-the-modern-age-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/perseverance-secret-of-spiritual-success",
+            "match_url": "/blog/perseverance-secret-of-spiritual-success",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/perseverance-secret-of-spiritual-success-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-need-for-a-true-guru-in-ones-life",
+            "match_url": "/blog/the-need-for-a-true-guru-in-ones-life",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-need-for-a-true-guru-in-ones-life-by-swami-smaranananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-cosmic-motion-picture",
+            "match_url": "/blog/the-cosmic-motion-picture",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-cosmic-motion-picture-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-secrets-of-spiritual-progress",
+            "match_url": "/blog/the-secrets-of-spiritual-progress",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-secrets-of-spiritual-progress-by-swami-jayananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/harnessing-the-power-of-the-mind",
+            "match_url": "/blog/harnessing-the-power-of-the-mind",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/harnessing-the-power-of-the-mind-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/cultivating-spiritual-enthusiasm",
+            "match_url": "/blog/cultivating-spiritual-enthusiasm",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/cultivating-spiritual-enthusiasm-by-swami-sattvananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/experiencing-god-within",
+            "match_url": "/blog/experiencing-god-within",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/experiencing-god-within-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/cultivating-deeper-faith",
+            "match_url": "/blog/cultivating-deeper-faith",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/cultivating-deeper-faith-by-swami-achalananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-you-can-talk-with-god",
+            "match_url": "/blog/how-you-can-talk-with-god",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-you-can-talk-with-god-by-karuna-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/prayer-trusting-god-in-every-circumstance-by-mukti-mata",
+            "match_url": "/blog/prayer-trusting-god-in-every-circumstance-by-mukti-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/prayer-trusting-god-in-every-circumstance-by-mukti-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/guru-and-disciple-an-eternal-covenant-of-love",
+            "match_url": "/blog/guru-and-disciple-an-eternal-covenant-of-love",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/guru-and-disciple-an-eternal-covenant-of-love-by-swami-bhaktananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/kriya-yoga-universal-science-of-god-realization",
+            "match_url": "/blog/kriya-yoga-universal-science-of-god-realization",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/kriya-yoga-universal-science-of-god-realization-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/developing-a-moment-to-moment-relationship-with-god",
+            "match_url": "/blog/developing-a-moment-to-moment-relationship-with-god",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/developing-a-moment-to-moment-relationship-with-god-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/yoga-and-the-steps-to-unconditional-love",
+            "match_url": "/blog/yoga-and-the-steps-to-unconditional-love",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/yoga-and-the-steps-to-unconditional-love-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/opening-our-hearts-and-minds-to-the-guru",
+            "match_url": "/blog/opening-our-hearts-and-minds-to-the-guru",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/opening-our-hearts-and-minds-to-the-guru-by-bhakti-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/keep-on-keeping-on-taking-god-with-you",
+            "match_url": "/blog/keep-on-keeping-on-taking-god-with-you",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/keep-on-keeping-on-taking-god-with-you-by-swami-achalananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/deepen-your-meditations-let-go-of-the-drama",
+            "match_url": "/blog/deepen-your-meditations-let-go-of-the-drama",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/deepen-your-meditations-let-go-of-the-drama-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/forgiveness-experiencing-the-compassion-of-god",
+            "match_url": "/blog/forgiveness-experiencing-the-compassion-of-god",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/forgiveness-experiencing-the-compassion-of-god-by-swami-saralananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/prayer-embracing-our-world-with-compassion-and-understanding",
+            "match_url": "/blog/prayer-embracing-our-world-with-compassion-and-understanding",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/prayer-embracing-our-world-with-compassion-and-understanding-by-preeti-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/becoming-humble-bearers-of-light-by-swami-ishtananda-giri",
+            "match_url": "/blog/becoming-humble-bearers-of-light-by-swami-ishtananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/becoming-humble-bearers-of-light-by-swami-ishtananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/living-in-constant-remembrance-of-god-by-swami-nakulananda-giri",
+            "match_url": "/blog/living-in-constant-remembrance-of-god-by-swami-nakulananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/living-in-constant-remembrance-of-god-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/a-spirit-of-renewal-and-joy",
+            "match_url": "/blog/a-spirit-of-renewal-and-joy",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/a-spirit-of-renewal-and-joy-by-usha-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/faith-learning-to-express-the-unerring-intuition-within-us",
+            "match_url": "/blog/faith-learning-to-express-the-unerring-intuition-within-us",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/faith-learning-to-express-the-unerring-intuition-within-us-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/lifes-challenges-opportunities-for-spiritual-progress",
+            "match_url": "/blog/lifes-challenges-opportunities-for-spiritual-progress",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/lifes-challenges-opportunities-for-spiritual-progress-by-swami-prafullananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/introspection-key-to-self-discovery",
+            "match_url": "/blog/introspection-key-to-self-discovery",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/introspection-key-to-self-discovery-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/living-fearlessly-overcoming-the-causes-of-stress-and-worry",
+            "match_url": "/blog/living-fearlessly-overcoming-the-causes-of-stress-and-worry",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/living-fearlessly-overcoming-the-causes-of-stress-and-worry-by-swami-jayananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/remembering-who-you-really-are-the-soul",
+            "match_url": "/blog/remembering-who-you-really-are-the-soul",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/remembering-who-you-really-are-the-soul-by-brahmani-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-spiritualize-your-everyday-experiences",
+            "match_url": "/blog/how-to-spiritualize-your-everyday-experiences",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-spiritualize-your-everyday-experiences-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/receiving-gods-response-in-the-silence-of-meditation",
+            "match_url": "/blog/receiving-gods-response-in-the-silence-of-meditation",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/receiving-gods-response-in-the-silence-of-meditation-by-swami-saralananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/spiritualizing-our-relationships",
+            "match_url": "/blog/spiritualizing-our-relationships",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/spiritualizing-our-relationships-by-preeti-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/dharma-the-path-of-virtue-that-leads-to-god",
+            "match_url": "/blog/dharma-the-path-of-virtue-that-leads-to-god",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/dharma-the-path-of-virtue-that-leads-to-god-by-swami-vishwananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/change-your-thoughts-change-your-life",
+            "match_url": "/blog/change-your-thoughts-change-your-life",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/change-your-thoughts-change-your-life-by-swami-bhumananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/there-is-no-death",
+            "match_url": "/blog/there-is-no-death",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/there-is-no-death-by-swami-prafullananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/embraced-in-gods-love-the-guru-disciple-relationship",
+            "match_url": "/blog/embraced-in-gods-love-the-guru-disciple-relationship",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/embraced-in-gods-love-the-guru-disciple-relationship-by-bhakti-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/faith-a-cornerstone-of-spiritual-living",
+            "match_url": "/blog/faith-a-cornerstone-of-spiritual-living",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/faith-a-cornerstone-of-the-spiritual-life-by-swami-anilananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/living-a-balanced-life-in-a-complex-world",
+            "match_url": "/blog/living-a-balanced-life-in-a-complex-world",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/living-a-balanced-life-in-a-complex-world-by-swami-jayananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/are-we-letting-lifes-circumstances-control-us",
+            "match_url": "/blog/are-we-letting-lifes-circumstances-control-us",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/are-we-letting-lifes-circumstances-control-us-by-swami-sevananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/service-the-power-of-love-in-action",
+            "match_url": "/blog/service-the-power-of-love-in-action",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/service-the-power-of-love-in-action-by-swami-ritananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-develop-dynamic-will-power",
+            "match_url": "/blog/how-to-develop-dynamic-will-power",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-develop-dynamic-will-power-by-ranjana-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/let-every-day-be-christmas-by-sri-sri-daya-mata",
+            "match_url": "/blog/let-every-day-be-christmas-by-sri-sri-daya-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/let-every-day-be-christmas-by-sri-sri-daya-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/how-to-live-a-god-oriented-life-by-swami-sattvananda-giri",
+            "match_url": "/blog/how-to-live-a-god-oriented-life-by-swami-sattvananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/how-to-live-a-god-oriented-life-by-swami-sattvananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/expanding-our-love-for-others-and-for-god-by-swami-saralananda-giri",
+            "match_url": "/blog/expanding-our-love-for-others-and-for-god-by-swami-saralananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/expanding-our-love-for-others-and-for-god-by-swami-saralananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/hearing-the-voice-of-conscience-within-you-by-swami-satyananda-giri",
+            "match_url": "/blog/hearing-the-voice-of-conscience-within-you-by-swami-satyananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/hearing-the-voice-of-conscience-within-you-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/cultivating-faith-and-inner-strength-in-todays-world-by-nandini-mai",
+            "match_url": "/blog/cultivating-faith-and-inner-strength-in-todays-world-by-nandini-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/cultivating-faith-and-inner-strength-in-todays-world-by-nandini-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/loyalty-highest-law-for-spiritual-success-by-swami-ishtananda-giri",
+            "match_url": "/blog/loyalty-highest-law-for-spiritual-success-by-swami-ishtananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/loyalty-highest-law-for-spiritual-success-by-swami-ishtananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/overcoming-nervousness-by-swami-nakulananda-giri",
+            "match_url": "/blog/overcoming-nervousness-by-swami-nakulananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/overcoming-nervousness-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/living-with-gratitude-by-brahmani-mai",
+            "match_url": "/blog/living-with-gratitude-by-brahmani-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/living-with-gratitude-by-brahmani-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/become-fearless-centre-your-life-in-god-by-swami-govindananda-giri",
+            "match_url": "/blog/become-fearless-centre-your-life-in-god-by-swami-govindananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/become-fearless-centre-your-life-in-god-by-swami-govindananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/spiritualizing-family-life-by-ranjana-mai",
+            "match_url": "/blog/spiritualizing-family-life-by-ranjana-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/spiritualizing-family-life-by-ranjana-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/what-is-truth-by-swami-ritananda-giri",
+            "match_url": "/blog/what-is-truth-by-swami-ritananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/what-is-truth-by-swami-ritananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/love-human-and-divine-by-swami-satyananda-giri",
+            "match_url": "/blog/love-human-and-divine-by-swami-satyananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/love-human-and-divine-by-swami-satyananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-caring-heart-of-divine-mother-by-nandini-mai",
+            "match_url": "/blog/the-caring-heart-of-divine-mother-by-nandini-mai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-caring-heart-of-divine-mother-by-nandini-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/controlling-the-power-of-habits-by-swami-prafullananda-giri",
+            "match_url": "/blog/controlling-the-power-of-habits-by-swami-prafullananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/controlling-the-power-of-habits-by-swami-prafullananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/ways-to-conquer-fear-by-swami-saralananda-giri",
+            "match_url": "/blog/ways-to-conquer-fear-by-swami-saralananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/ways-to-conquer-fear-by-swami-saralananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/attuning-our-lives-with-gods-plan-by-swami-chidananda-giri",
+            "match_url": "/blog/attuning-our-lives-with-gods-plan-by-swami-chidananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/attuning-our-lives-with-gods-plan-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/discovering-the-lasting-happiness-of-your-soul-by-swami-nakulananda-giri",
+            "match_url": "/blog/discovering-the-lasting-happiness-of-your-soul-by-swami-nakulananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/discovering-the-lasting-happiness-of-your-soul-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/creating-your-spiritual-environment-by-swami-anandamoy-giri",
+            "match_url": "/blog/creating-your-spiritual-environment-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/creating-your-spiritual-environment-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/uniting-our-will-with-gods-infinite-power-by-swami-sevananda-giri",
+            "match_url": "/blog/uniting-our-will-with-gods-infinite-power-by-swami-sevananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/uniting-our-will-with-gods-infinite-power-by-swami-sevananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/achieving-your-material-and-spiritual-goals-by-swami-chidananda-giri",
+            "match_url": "/blog/achieving-your-material-and-spiritual-goals-by-swami-chidananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/achieving-your-material-and-spiritual-goals-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/paramahansa-yogananda-a-world-teacher-by-swami-anandamoy-giri",
+            "match_url": "/blog/paramahansa-yogananda-a-world-teacher-by-swami-anandamoy-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/paramahansa-yogananda-a-world-teacher-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/spiritual-generosity-the-art-of-selflessly-helping-others",
+            "match_url": "/blog/spiritual-generosity-the-art-of-selflessly-helping-others",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/spiritual-generosity-the-art-of-selflessly-helping-others-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/living-in-the-sacred-presence-of-the-divine-mother",
+            "match_url": "/blog/living-in-the-sacred-presence-of-the-divine-mother",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/living-in-the-sacred-presence-of-divine-mother-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-cosmic-mystery-of-karma-and-reincarnation",
+            "match_url": "/blog/the-cosmic-mystery-of-karma-and-reincarnation",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-cosmic-mystery-of-karma-and-reincarnation-by-swami-sevananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/your-thoughts-can-change-your-life",
+            "match_url": "/blog/your-thoughts-can-change-your-life",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/your-thoughts-can-change-your-life-by-swami-anandamoy-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/coping-with-lifes-challenges",
+            "match_url": "/blog/coping-with-lifes-challenges",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/coping-with-lifes-challenges-by-swami-smaranananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/spiritual-happiness-tapping-into-the-souls-storehouse-of-love-peace-and-joy",
+            "match_url": "/blog/spiritual-happiness-tapping-into-the-souls-storehouse-of-love-peace-and-joy",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/spiritual-happiness-tapping-into-the-souls-storehouse-of-love-peace-and-joy-by-preeti-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/a-promise-of-light",
+            "match_url": "/blog/a-promise-of-light",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/a-promise-of-light-by-sri-sri-daya-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-guru-guide-to-eternal-freedom",
+            "match_url": "/blog/the-guru-guide-to-eternal-freedom",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-guru-guide-to-eternal-freedom-by-swami-anilananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/true-devotion-living-in-gods-presence-moment-by-moment-by-swami-vishwananda-giri",
+            "match_url": "/blog/true-devotion-living-in-gods-presence-moment-by-moment-by-swami-vishwananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/true-devotion-living-in-gods-presence-moment-by-moment-by-swami-vishwananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/finding-spiritual-balance-in-your-life",
+            "match_url": "/blog/finding-spiritual-balance-in-your-life",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/finding-spiritual-balance-in-your-life-by-priya-mai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/principles-of-effective-prayer",
+            "match_url": "/blog/principles-of-effective-prayer",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/principles-of-effective-prayer-by-swami-smaranananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/strengthening-character-by-developing-spiritual-courage-and-endurance",
+            "match_url": "/blog/strengthening-character-by-developing-spiritual-courage-and-endurance",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/strengthening-character-by-developing-spiritual-courage-and-endurance-by-swami-chidananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/fulfilling-the-highest-purpose-of-life",
+            "match_url": "/blog/fulfilling-the-highest-purpose-of-life",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/fulfilling-the-highest-purpose-of-life-by-swami-vishwananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/my-spirit-shall-live-on-the-final-days-of-paramahansa-yogananda-by-sri-daya-mata",
+            "match_url": "/blog/my-spirit-shall-live-on-the-final-days-of-paramahansa-yogananda-by-sri-daya-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-final-days-of-paramahansa-yogananda-by-sri-sri-daya-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/celebrating-christmas-in-the-temple-of-the-soul-by-swami-nakulananda-giri",
+            "match_url": "/blog/celebrating-christmas-in-the-temple-of-the-soul-by-swami-nakulananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/celebrating-christmas-in-the-temple-of-the-soul-by-swami-nakulananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/the-deeper-teachings-of-jesus-christ-by-swami-saralananda-giri",
+            "match_url": "/blog/the-deeper-teachings-of-jesus-christ-by-swami-saralananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/the-deeper-teachings-of-jesus-christ-by-swami-saralananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/living-without-fear-by-swami-anantananda-giri",
+            "match_url": "/blog/living-without-fear-by-swami-anantananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/living-without-fear-by-swami-anantananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/opening-your-heart-to-gods-presence-by-sri-daya-mata",
+            "match_url": "/blog/opening-your-heart-to-gods-presence-by-sri-daya-mata",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/opening-your-heart-to-gods-presence-by-sri-daya-mata"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/getting-acquainted-with-god-by-swami-sattvananda-giri",
+            "match_url": "/blog/getting-acquainted-with-god-by-swami-sattvananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/getting-acquainted-with-god-by-swami-sattvananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "/blog/importance-of-sadhana-and-seva-for-a-devotee-by-swami-ishwarananda-giri",
+            "match_url": "/blog/importance-of-sadhana-and-seva-for-a-devotee-by-swami-ishwarananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/importance-of-sadhana-and-seva-for-a-devotee-by-swami-ishwarananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        },
+        {
+            "url": "hi/blog/importance-of-sadhana-and-seva-for-a-devotee-by-swami-ishwarananda-giri",
+            "match_url": "hi/blog/importance-of-sadhana-and-seva-for-a-devotee-by-swami-ishwarananda-giri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/teachings-library/importance-of-sadhana-and-seva-for-a-devotee-by-swami-ishwarananda-giri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 24,
+            "enabled": true
+        }
+    ]
+}
