@@ -1,5 +1,5 @@
 // Import common util
-import { checkIfElementIsClickable } from "./util/common.util";
+import { checkIfElementIsClickable, checkStatus200ForLink } from "./util/common.util";
 
 import { DashboardPages } from "./pages/dashboard.page";
 
@@ -10,11 +10,11 @@ describe("Dashboard page", () => {
     cy.visit("/teachings-library");
   });
 
-  it("should open Dashboard page", () => {
-    cy.screenshot({ capture: "fullPage" });
+  it("Donate button - should be clickable", () => {
+    cy.get(dashboardPages.btnDonate).click();
   });
 
-  it("Donate button - should be clickable", () => {
-    checkIfElementIsClickable(dashboardPages.btnDonate);
+  it("Donate button - give 200 OK status", () => {
+    checkStatus200ForLink(dashboardPages.btnDonate);
   });
 });

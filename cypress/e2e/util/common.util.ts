@@ -34,3 +34,16 @@ export function checkIfElementIsClickable(selector: string) {
 export function captureSreenshot(seconds=0) {
   cy.wait(seconds).screenshot({ capture: "viewport" });
 }
+
+export function checkStatus200ForLink(selector: string) {
+  cy.get(selector).then((link) => {
+    cy.request("HEAD", link.prop("href")).its("status").should("eq", 200);
+
+    cy.log(`link: ${link.prop("href")}`);
+
+    //Open this new link and take screenshot
+    // if (!TEST_CONFIG.bookstorePreview.skipOpenPDFAndTakeScreenshot){
+    //   this.openPDFAndTakeScreenshot(link);
+    // }
+  });
+}
