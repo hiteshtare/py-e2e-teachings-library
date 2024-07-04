@@ -5,6 +5,7 @@ import { TEST_CONFIG } from "../config";
 import { captureSreenshot } from "../util/common.util";
 
 export class FilterPages {
+ 
   btnFilterTitle = ".elementor-toggle-title";
   divFilterTab = "#elementor-tab-content-1091";
 
@@ -19,24 +20,6 @@ export class FilterPages {
   checkboxlistSpeaker = '.jet-smart-filters-color-image > .jet-filter-items-dropdown > .jet-filter-items-dropdown__label';
   checkboxlistLanguage = '.elementor-element-b5b9f6e > .elementor-widget-wrap > .elementor-element > .elementor-widget-container > .jet-smart-filters-checkboxes > .jet-filter-items-dropdown > .jet-filter-items-dropdown__label';
   //Checkboxlist
-
-  checkIfElementNotVisible(selector: string) {
-    cy.get(selector).should('not.be.visible');
-
-    captureSreenshot(500);
-  }
-
-  checkIfElementIsVisible(selector: string) {
-    cy.get(selector).should('be.visible');
-
-    captureSreenshot(500);
-  }
-
-  checkIfElementIsClickable(selector: string) {
-    cy.get(selector).click();
-
-    captureSreenshot(500);
-  }
 
   selectDropdownOptionByValue(value: string) {
     cy.get(this.dropdownMediaType).select(value);

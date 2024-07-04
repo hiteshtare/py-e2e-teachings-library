@@ -1,3 +1,6 @@
+// Import common util
+import {checkIfElementIsClickable, checkIfElementIsVisible, checkIfElementNotVisible } from "./util/common.util";
+
 import { FilterPages } from "./pages/filter.page";
 
 const filterPages = new FilterPages();
@@ -12,25 +15,25 @@ describe.skip("Filter menu", () => {
 
   describe("Overall working", () => {
     it("Filter menu should not be visible by default", () => {
-      filterPages.checkIfElementNotVisible(filterPages.divFilterTab);
+      checkIfElementNotVisible(filterPages.divFilterTab);
     });
   
     it("Filter menu should be visible when clicked on Accordian title", () => {
       cy.get(filterPages.btnFilterTitle).click();
   
-      filterPages.checkIfElementIsVisible(filterPages.divFilterTab);
+      checkIfElementIsVisible(filterPages.divFilterTab);
     });
   
     it("Filter menu should be visible when clicked on Accordian area", () => {
       cy.get("#elementor-tab-title-1091").click();
   
-      filterPages.checkIfElementIsVisible(filterPages.divFilterTab);
+      checkIfElementIsVisible(filterPages.divFilterTab);
     });
   
     it("Filter menu should be visible when clicked on Accordian right carot icon", () => {
       cy.get(".elementor-toggle-icon-closed").click();
   
-      filterPages.checkIfElementIsVisible(filterPages.divFilterTab);
+      checkIfElementIsVisible(filterPages.divFilterTab);
     });
   });
 
@@ -69,19 +72,19 @@ describe.skip("Filter menu", () => {
 
   describe("checkboxlist: Category", () => {
     it("checkboxlist: Category - should be clickable", () => {
-      filterPages.checkIfElementIsClickable(filterPages.checkboxlistCategory);
+      checkIfElementIsClickable(filterPages.checkboxlistCategory);
     });
   });
 
   describe("checkboxlist: Speaker", () => {
     it("checkboxlist: Speaker - should be clickable", () => {
-      filterPages.checkIfElementIsClickable(filterPages.checkboxlistSpeaker);
+      checkIfElementIsClickable(filterPages.checkboxlistSpeaker);
     });
   });
 
   describe("checkboxlist: Language", () => {
     it("checkboxlist: Language - should be clickable", () => {
-      filterPages.checkIfElementIsClickable(filterPages.checkboxlistLanguage);
+      checkIfElementIsClickable(filterPages.checkboxlistLanguage);
     });
   });
 });

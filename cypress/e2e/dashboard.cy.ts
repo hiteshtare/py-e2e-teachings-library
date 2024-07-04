@@ -1,6 +1,9 @@
-import { NavigationPages } from "./pages/dashboard.page";
+// Import common util
+import { checkIfElementIsClickable } from "./util/common.util";
 
-const navigationPages = new NavigationPages();
+import { DashboardPages } from "./pages/dashboard.page";
+
+const dashboardPages = new DashboardPages();
 
 describe("Dashboard page", () => {
   beforeEach(() => {
@@ -11,5 +14,7 @@ describe("Dashboard page", () => {
     cy.screenshot({ capture: "fullPage" });
   });
 
-  
+  it("Donate button - should be clickable", () => {
+    checkIfElementIsClickable(dashboardPages.btnDonate);
+  });
 });
