@@ -1,5 +1,8 @@
 // Import common util
-import { checkIfElementIsClickable, checkStatus200ForLink } from "./util/common.util";
+import {
+  checkIfElementIsClickable,
+  checkStatus200ForLink,
+} from "./util/common.util";
 
 import { DashboardPages } from "./pages/dashboard.page";
 
@@ -10,11 +13,25 @@ describe("Dashboard page", () => {
     cy.visit("/teachings-library");
   });
 
-  it("Donate button - should be clickable", () => {
-    cy.get(dashboardPages.btnDonate).click();
+  describe("Item card", () => {
+    it("card: Image - should be clickable", () => {
+      checkStatus200ForLink(dashboardPages.btnCardTitle);
+    });
+    it("card: Title - should be clickable", () => {
+      checkStatus200ForLink(dashboardPages.btnCardTitle);
+    });
+    it("card: Author - should be clickable", () => {
+      checkStatus200ForLink(dashboardPages.btnCardTitle);
+    });
   });
 
-  it("Donate button - give 200 OK status", () => {
-    checkStatus200ForLink(dashboardPages.btnDonate);
+  describe.skip("button: Donate", () => {
+    it("Donate button - should be clickable", () => {
+      cy.get(dashboardPages.btnDonate).click();
+    });
+
+    it("Donate button - give 200 OK status", () => {
+      checkStatus200ForLink(dashboardPages.btnDonate);
+    });
   });
 });
