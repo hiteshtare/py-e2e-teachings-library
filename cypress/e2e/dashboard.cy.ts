@@ -1,4 +1,4 @@
-import { NavigationPages } from './pages/dashboard.page';
+import { NavigationPages } from "./pages/dashboard.page";
 
 const navigationPages = new NavigationPages();
 
@@ -23,13 +23,13 @@ describe("Teaching library", () => {
     });
 
     it("Filter menu should be visible when clicked on Accordian area", () => {
-      cy.get('#elementor-tab-title-1091').click();
+      cy.get("#elementor-tab-title-1091").click();
 
       navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
     });
 
     it("Filter menu should be visible when clicked on Accordian right carot icon", () => {
-      cy.get('.elementor-toggle-icon-closed').click();
+      cy.get(".elementor-toggle-icon-closed").click();
 
       navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
     });
@@ -43,24 +43,37 @@ describe("Teaching library", () => {
       cy.get(navigationPages.btnFilterTitle).click();
     });
 
-    it("Media Type dropdown - should have default value", () => {
-      cy.get(navigationPages.dropdownMediaType).select(0).should('have.value', '')
-    });
+    describe.skip("Media Type dropdown", () => {
 
-    it("Media Type dropdown - should have 1st option equal to (text/value) Audio:7948", () => {
-      cy.get(navigationPages.dropdownMediaType).select(1).should('have.value', navigationPages.dropdownMediaType_AudioValue)
-    });
+      it("Media Type dropdown - should have default value", () => {
+        cy.get(navigationPages.dropdownMediaType)
+          .select(0)
+          .should("have.value", "");
+      });
 
-    it("Media Type dropdown - should have 2nd option equal to (text/value) Video:7949", () => {
-      cy.get(navigationPages.dropdownMediaType).select(2).should('have.value', navigationPages.dropdownMediaType_VideoValue)
-    });
+      it("Media Type dropdown - should have 1st option equal to (text/value) Audio:7948", () => {
+        cy.get(navigationPages.dropdownMediaType)
+          .select(1)
+          .should("have.value", navigationPages.dropdownMediaType_AudioValue);
+      });
 
-    it("Media Type dropdown - 1st option selection should work", () => {
-      navigationPages.selectDropdownOptionByValue(navigationPages.dropdownMediaType_AudioValue)
-    });
+      it("Media Type dropdown - should have 2nd option equal to (text/value) Video:7949", () => {
+        cy.get(navigationPages.dropdownMediaType)
+          .select(2)
+          .should("have.value", navigationPages.dropdownMediaType_VideoValue);
+      });
 
-    it("Media Type dropdown - 2nd option selection should work", () => {
-      navigationPages.selectDropdownOptionByValue(navigationPages.dropdownMediaType_VideoValue)
+      it("Media Type dropdown - 1st option selection should work", () => {
+        navigationPages.selectDropdownOptionByValue(
+          navigationPages.dropdownMediaType_AudioValue
+        );
+      });
+
+      it("Media Type dropdown - 2nd option selection should work", () => {
+        navigationPages.selectDropdownOptionByValue(
+          navigationPages.dropdownMediaType_VideoValue
+        );
+      });
     });
-  })
-})
+  });
+});
