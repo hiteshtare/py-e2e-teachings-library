@@ -1,4 +1,4 @@
-import { NavigationPages } from './pages/navigation.page';
+import { NavigationPages } from './pages/dashboard.page';
 
 const navigationPages = new NavigationPages();
 
