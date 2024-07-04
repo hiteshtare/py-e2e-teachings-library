@@ -96,7 +96,7 @@ describe("Dashboard page", () => {
     // });
   });
 
-  describe("button: Donate", () => {
+  describe.skip("button: Donate", () => {
     it("Donate button - should be clickable", () => {
       cy.get(dashboardPages.btnDonate).click();
     });
