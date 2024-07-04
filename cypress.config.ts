@@ -34,8 +34,8 @@ export default defineConfig({
       // IMPORTANT: return the updated config object
       // for Cypress to use it
       allureWriter(on, config);
-      on('after:run', (results) => {
-        const data = `Environment=${environmentName}\nBaseURL=${settings.baseUrl}\n`
+      on('after:run', (results:any) => {
+        const data = `Environment=${environmentName}\nBaseURL=${settings.baseUrl}\nBrowser=${results['browserName']}\nBrowserVersion=${results['browserVersion']}`
         fs.writeFile('allure-results/environment.properties', data, (err) => {
           if (err) throw err;
         });
