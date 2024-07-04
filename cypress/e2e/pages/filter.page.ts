@@ -4,7 +4,7 @@ import { TEST_CONFIG } from "../config";
 // Import custom modules
 import { captureSreenshot } from "../util/common.util";
 
-export class NavigationPages {
+export class FilterPages {
   btnFilterTitle = ".elementor-toggle-title";
   divFilterTab = "#elementor-tab-content-1091";
 

@@ -2,90 +2,34 @@ import { NavigationPages } from "./pages/dashboard.page";
 
 const navigationPages = new NavigationPages();
 
-describe("Teaching library", () => {
-  describe.skip("Dashboard Page", () => {
-    beforeEach(() => {
-      cy.visit("/teachings-library");
-    });
-
-    it("should open Dashboard page", () => {
-      cy.screenshot({ capture: "fullPage" });
-    });
-
-    it("Filter menu should not be visible by default", () => {
-      navigationPages.checkIfElementNotVisible(navigationPages.divFilterTab);
-    });
-
-    it("Filter menu should be visible when clicked on Accordian title", () => {
-      cy.get(navigationPages.btnFilterTitle).click();
-
-      navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
-    });
-
-    it("Filter menu should be visible when clicked on Accordian area", () => {
-      cy.get("#elementor-tab-title-1091").click();
-
-      navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
-    });
-
-    it("Filter menu should be visible when clicked on Accordian right carot icon", () => {
-      cy.get(".elementor-toggle-icon-closed").click();
-
-      navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
-    });
+describe("Dashboard page", () => {
+  beforeEach(() => {
+    cy.visit("/teachings-library");
   });
 
-  describe("Working of Filter Menu", () => {
-    beforeEach(() => {
-      cy.visit("/teachings-library");
+  it("should open Dashboard page", () => {
+    cy.screenshot({ capture: "fullPage" });
+  });
 
-      //Open filter menu
-      cy.get(navigationPages.btnFilterTitle).click();
-    });
+  it("Filter menu should not be visible by default", () => {
+    navigationPages.checkIfElementNotVisible(navigationPages.divFilterTab);
+  });
 
-    describe.skip("dropdown: Media Type", () => {
+  it("Filter menu should be visible when clicked on Accordian title", () => {
+    cy.get(navigationPages.btnFilterTitle).click();
 
-      it("dropdown: Media Type - should have default value", () => {
-        cy.get(navigationPages.dropdownMediaType)
-          .select(0)
-          .should("have.value", "");
-      });
+    navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
+  });
 
-      it("dropdown: Media Type - should have 1st option equal to (text/value) Audio:7948", () => {
-        cy.get(navigationPages.dropdownMediaType)
-          .select(1)
-          .should("have.value", navigationPages.dropdownMediaType_AudioValue);
-      });
+  it("Filter menu should be visible when clicked on Accordian area", () => {
+    cy.get("#elementor-tab-title-1091").click();
 
-      it("dropdown: Media Type - should have 2nd option equal to (text/value) Video:7949", () => {
-        cy.get(navigationPages.dropdownMediaType)
-          .select(2)
-          .should("have.value", navigationPages.dropdownMediaType_VideoValue);
-      });
+    navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
+  });
 
-      it("dropdown: Media Type - 1st option selection should work", () => {
-        navigationPages.selectDropdownOptionByValue(
-          navigationPages.dropdownMediaType_AudioValue
-        );
-      });
+  it("Filter menu should be visible when clicked on Accordian right carot icon", () => {
+    cy.get(".elementor-toggle-icon-closed").click();
 
-      it("dropdown: Media Type - 2nd option selection should work", () => {
-        navigationPages.selectDropdownOptionByValue(
-          navigationPages.dropdownMediaType_VideoValue
-        );
-      });
-    });
-
-    describe("checkboxlist: Category", () => {
-      it("checkboxlist: Category - should be clickable", () => {
-        navigationPages.checkIfElementIsClickable(navigationPages.checkboxlistCategory);
-      });
-    });
-
-    describe("checkboxlist: Language", () => {
-      it("checkboxlist: Language - should be clickable", () => {
-        navigationPages.checkIfElementIsClickable(navigationPages.checkboxlistLanguage);
-      });
-    });
+    navigationPages.checkIfElementIsVisible(navigationPages.divFilterTab);
   });
 });

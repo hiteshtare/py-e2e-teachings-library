@@ -1,7 +1,7 @@
 //Import test data for Books
 const testDataForURL = require("../fixtures/teachingsLibrary_url.json");
 
-describe.skip("URL Testing", () => {
+describe.skip("URL testing", () => {
   describe("Teaching URLs: OK status", () => {
     testDataForURL.forEach((testCase: any, index: number) => {
       it(`#${index + 1} URL with Title:${
