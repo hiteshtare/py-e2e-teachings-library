@@ -43,36 +43,48 @@ describe("Teaching library", () => {
       cy.get(navigationPages.btnFilterTitle).click();
     });
 
-    describe.skip("Media Type dropdown", () => {
+    describe.skip("dropdown: Media Type", () => {
 
-      it("Media Type dropdown - should have default value", () => {
+      it("dropdown: Media Type - should have default value", () => {
         cy.get(navigationPages.dropdownMediaType)
           .select(0)
           .should("have.value", "");
       });
 
-      it("Media Type dropdown - should have 1st option equal to (text/value) Audio:7948", () => {
+      it("dropdown: Media Type - should have 1st option equal to (text/value) Audio:7948", () => {
         cy.get(navigationPages.dropdownMediaType)
           .select(1)
           .should("have.value", navigationPages.dropdownMediaType_AudioValue);
       });
 
-      it("Media Type dropdown - should have 2nd option equal to (text/value) Video:7949", () => {
+      it("dropdown: Media Type - should have 2nd option equal to (text/value) Video:7949", () => {
         cy.get(navigationPages.dropdownMediaType)
           .select(2)
           .should("have.value", navigationPages.dropdownMediaType_VideoValue);
       });
 
-      it("Media Type dropdown - 1st option selection should work", () => {
+      it("dropdown: Media Type - 1st option selection should work", () => {
         navigationPages.selectDropdownOptionByValue(
           navigationPages.dropdownMediaType_AudioValue
         );
       });
 
-      it("Media Type dropdown - 2nd option selection should work", () => {
+      it("dropdown: Media Type - 2nd option selection should work", () => {
         navigationPages.selectDropdownOptionByValue(
           navigationPages.dropdownMediaType_VideoValue
         );
+      });
+    });
+
+    describe("checkboxlist: Category", () => {
+      it("checkboxlist: Category - should be clickable", () => {
+        navigationPages.checkIfElementIsClickable(navigationPages.checkboxlistCategory);
+      });
+    });
+
+    describe("checkboxlist: Language", () => {
+      it("checkboxlist: Language - should be clickable", () => {
+        navigationPages.checkIfElementIsClickable(navigationPages.checkboxlistLanguage);
       });
     });
   });
