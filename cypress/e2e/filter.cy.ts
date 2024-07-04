@@ -10,6 +10,30 @@ describe.skip("Filter menu", () => {
     cy.get(filterPages.btnFilterTitle).click();
   });
 
+  describe("Overall working", () => {
+    it("Filter menu should not be visible by default", () => {
+      filterPages.checkIfElementNotVisible(filterPages.divFilterTab);
+    });
+  
+    it("Filter menu should be visible when clicked on Accordian title", () => {
+      cy.get(filterPages.btnFilterTitle).click();
+  
+      filterPages.checkIfElementIsVisible(filterPages.divFilterTab);
+    });
+  
+    it("Filter menu should be visible when clicked on Accordian area", () => {
+      cy.get("#elementor-tab-title-1091").click();
+  
+      filterPages.checkIfElementIsVisible(filterPages.divFilterTab);
+    });
+  
+    it("Filter menu should be visible when clicked on Accordian right carot icon", () => {
+      cy.get(".elementor-toggle-icon-closed").click();
+  
+      filterPages.checkIfElementIsVisible(filterPages.divFilterTab);
+    });
+  });
+
   describe("dropdown: Media Type", () => {
 
     it("dropdown: Media Type - should have default value", () => {
@@ -48,7 +72,6 @@ describe.skip("Filter menu", () => {
       filterPages.checkIfElementIsClickable(filterPages.checkboxlistCategory);
     });
   });
-
 
   describe("checkboxlist: Speaker", () => {
     it("checkboxlist: Speaker - should be clickable", () => {
