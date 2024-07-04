@@ -1,8 +1,8 @@
 //Import test data for Books
 const testDataForURL = require("../fixtures/teachingsLibrary_url.json");
 
-describe("Teaching library", () => {
-  describe.skip("URL: Test", () => {
+describe.skip("URL Testing", () => {
+  describe("Teaching URLs: OK status", () => {
     testDataForURL.forEach((testCase: any, index: number) => {
       it(`#${index + 1} URL with Title:${
         testCase["YSS New URL (Redirection TO)"]
@@ -20,7 +20,7 @@ describe("Teaching library", () => {
     });
   });
 
-  describe("URL: Redirection test", () => {
+  describe("Blog URLs: Redirection", () => {
     const urlStringMatch = "/teachings-library/";
 
     testDataForURL.forEach((testCase: any, index: number) => {
