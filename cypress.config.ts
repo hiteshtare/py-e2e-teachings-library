@@ -14,10 +14,10 @@ export default defineConfig({
     viewportWidth: 1280,
     viewportHeight: 768,
     baseUrl: 'https://test.yssofindia.org/',
-    // numTestsKeptInMemory:0,
+    numTestsKeptInMemory:0,
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      const environmentName = config.env.environmentName || 'staging';
+      const environmentName = config.env.environmentName || 'release';
       const environmentFilename = `./env/${environmentName}.settings.json`;
       console.warn('loading %s', environmentFilename);
       const settings = require(environmentFilename);
@@ -36,7 +36,7 @@ export default defineConfig({
       // for Cypress to use it
       allureWriter(on, config);
       on('after:run', (results:any) => {
-        const data = `Environment=${environmentName}\nBaseURL=${settings.baseUrl}\n}`
+        const data = `Environment=${environmentName}\nBaseURL=${settings.baseUrl}\n`
         fs.writeFile('allure-results/environment.properties', data, (err) => {
           if (err) throw err;
         });

@@ -1,5 +1,6 @@
 // Import common util
 import {
+  captureSreenshot,
   checkIfElementExist,
   checkIfElementNotExist,
   checkStatus200ForLink,
@@ -44,6 +45,9 @@ describe("Dashboard page", () => {
             cy.wait(4000)
               .get(".elementor-loop-container.elementor-grid > div")
               .each(($event, index) => {
+
+                // cy.screenshot({ capture: "fullPage" });
+                
                 cy.wrap($event).within(async () => {
                   const title: string = await getElementText(
                     dashboardPages.btnCardTitle
