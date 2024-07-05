@@ -25,7 +25,11 @@ export function checkIfElementIsVisible(selector: string) {
   captureSreenshot(500);
 }
 
-export function checkIfElementExist(selector: string) {
+export function checkIfElementExist(selector: string, takeScreenshot = false) {
+  if (takeScreenshot) {
+    captureSreenshot(500);
+  }
+
   return cy.get(selector).should("exist");
 }
 
@@ -33,10 +37,12 @@ export function checkIfElementNotExist(selector: string) {
   return cy.get(selector).should("not.exist");
 }
 
-export function checkIfElementIsClickable(selector: string) {
+export function checkIfElementIsClickable(selector: string, takeScreenshot = false) {
   cy.get(selector).click();
 
-  captureSreenshot(500);
+  if (takeScreenshot) {
+    captureSreenshot(500);
+  }
 }
 
 export function captureSreenshot(seconds = 0) {
@@ -69,10 +75,9 @@ export async function getElementText(selector: string) {
 
 export async function getElementLink(selector: string) {
   let link: string = await new Cypress.Promise<string>((resolve) => {
-    cy.get(selector)
-      .then((link) => {
-        resolve(link.prop("href").toString());
-      });
+    cy.get(selector).then((link) => {
+      resolve(link.prop("href").toString());
+    });
   });
   return link;
 }

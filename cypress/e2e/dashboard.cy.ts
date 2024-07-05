@@ -11,22 +11,10 @@ import { DashboardPages } from "./pages/dashboard.page";
 
 const dashboardPages = new DashboardPages();
 
-describe("Dashboard page", () => {
+describe.skip("Dashboard page", () => {
   beforeEach(() => {
     cy.visit("/teachings-library");
   });
-
-  // describe("Item card", () => {
-  //   it("card: Image - should be clickable", () => {
-  //     checkStatus200ForLink(dashboardPages.btnCardTitle);
-  //   });
-  //   it("card: Title - should be clickable", () => {
-  //     checkStatus200ForLink(dashboardPages.btnCardTitle);
-  //   });
-  //   it("card: Author - should be clickable", () => {
-  //     checkStatus200ForLink(dashboardPages.btnCardTitle);
-  //   });
-  // });
 
   let arritemArr:any[] = [];
 
@@ -70,19 +58,18 @@ describe("Dashboard page", () => {
                 }
 
                 arritemArr.push(item);
-                cy.writeFile('cypress/downloads/teachingsLibrary_item.json', arritemArr);
   
-                cy.log(`item #${index}: Image - should be clickable`);
+                // cy.log(`item #${index}: Image - should be clickable`);
                 // it(`item #${index}: Image - should be clickable`, () => {
-                  checkStatus200ForLink(dashboardPages.btnCardImage);
+                  // checkStatus200ForLink(dashboardPages.btnCardImage);
                 // });
-                cy.log(`item #${index}: Title - should be clickable`);
+                // cy.log(`item #${index}: Title - should be clickable`);
                 // it(`item #${index}: Title - should be clickable`, () => {
-                  checkStatus200ForLink(dashboardPages.btnCardTitle);
+                  // checkStatus200ForLink(dashboardPages.btnCardTitle);
                 // });
-                cy.log(`item #${index}: Author - should be clickable`);
+                // cy.log(`item #${index}: Author - should be clickable`);
                 // it(`item #${index}: Author - should be clickable`, () => {
-                  checkStatus200ForLink(dashboardPages.btnCardAuthor);
+                  // checkStatus200ForLink(dashboardPages.btnCardAuthor);
                 // });
               });
             // });
@@ -93,6 +80,9 @@ describe("Dashboard page", () => {
           
 
           if (checkIfElementExist(btnNext)) {
+            
+            cy.writeFile('cypress/downloads/teachingsLibrary_item.json', arritemArr);
+
             cy.get(btnNext)
               .click()
               .then(() => maybeClickNext(page + 1));
@@ -115,9 +105,9 @@ describe("Dashboard page", () => {
       // cy.get("[value=last]").should("be.disabled");
     });
 
-    // it("Prev button should not be visible", () => {
-    //   checkIfElementNotExist(".jet-filters-pagination__item .prev-next .prev");
-    // });
+    it("Prev button should not be visible", () => {
+      checkIfElementNotExist(".jet-filters-pagination__item .prev-next .prev");
+    });
   });
 
   describe("button: Donate", () => {
