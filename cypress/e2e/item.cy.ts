@@ -11,7 +11,7 @@ const itemPages = new ItemPages();
 //Import test data for Books
 const testDataForItems = require("../fixtures/teachingsLibrary_item.json");
 
-describe.skip("Library items: Dynamic data test ", () => {
+describe("Library items: Dynamic data test ", () => {
   testDataForItems.forEach((testCase: any, index: number) => {
     describe(`Page:${testCase.pageNo}/item:${testCase.itemNo} Item with title:${testCase.title} by author:${testCase.author}`, () => {
       beforeEach(() => {

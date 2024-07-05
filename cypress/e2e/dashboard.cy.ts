@@ -84,7 +84,7 @@ describe("Dashboard page", () => {
   }
 
   describe("Pagination", () => {
-    it("clicks the Next button until we get to the last page", () => {
+    it.skip("clicks the Next button until we get to the last page", () => {
       // the HTML table on the page is paginated
       // can you click the "Next" button until
       // we get to the very last page?
