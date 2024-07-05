@@ -11,12 +11,12 @@ import { DashboardPages } from "./pages/dashboard.page";
 
 const dashboardPages = new DashboardPages();
 
-describe.skip("Dashboard page", () => {
+describe("Dashboard page", () => {
   beforeEach(() => {
     cy.visit("/teachings-library");
   });
 
-  let arritemArr:any[] = [];
+  let arritemArr: any[] = [];
 
   function maybeClickNext(page = 1) {
     // the Next button is always present
@@ -30,65 +30,57 @@ describe.skip("Dashboard page", () => {
       btnNext = ".next > .jet-filters-pagination__link";
     }
 
-    cy.get(btnNext, { log: false })
-      .invoke({ log: false }, "attr", "disabled")
-      .then((disabled) => {
-        if (disabled === "disabled") {
-          cy.log("Last page!");
-        } else {
-          cy.log(`Page #${page}: Items`);
-          // not the end yet, sleep half a second for clarity,
-          // click the button, and recursively check again
+    if (checkIfElementExist(btnNext)) {
+      cy.get(btnNext, { log: false })
+        .invoke({ log: false }, "attr", "disabled")
+        .then((disabled) => {
+          if (disabled === "disabled") {
+            cy.log("Last page!");
+          } else {
+            cy.log(`Page #${page}: Items`);
+            // not the end yet, sleep half a second for clarity,
+            // click the button, and recursively check again
 
-          // describe(`Page #${page}: Items`, () => {
-            cy.wait(3000).get('.elementor-loop-container.elementor-grid > div').each(($event,index) => {
-              cy.wrap($event).within(async () => {
+            cy.wait(4000)
+              .get(".elementor-loop-container.elementor-grid > div")
+              .each(($event, index) => {
+                cy.wrap($event).within(async () => {
+                  const title: string = await getElementText(
+                    dashboardPages.btnCardTitle
+                  );
+                  const author: string = "";
+                  // const author: string = await getElementText(
+                  //   dashboardPages.btnCardAuthor
+                  // );
+                  const link: string = await getElementLink(
+                    dashboardPages.btnCardTitle
+                  );
 
+                  let item = {
+                    pageNo: `${page}`,
+                    itemNo: `${index + 1}`,
+                    title: title,
+                    link: link,
+                    author: author,
+                  };
 
-                const title: string = await getElementText(dashboardPages.btnCardTitle);
-                const author: string = await getElementText(dashboardPages.btnCardAuthor);
-                const link: string = await getElementLink(dashboardPages.btnCardImage);
-
-                let item = {
-                  pageNo: `${page}`,
-                  itemNo: `${index}`,
-                  title: title,
-                  link: link,
-                  author: author
-                }
-
-                arritemArr.push(item);
-  
-                // cy.log(`item #${index}: Image - should be clickable`);
-                // it(`item #${index}: Image - should be clickable`, () => {
-                  // checkStatus200ForLink(dashboardPages.btnCardImage);
-                // });
-                // cy.log(`item #${index}: Title - should be clickable`);
-                // it(`item #${index}: Title - should be clickable`, () => {
-                  // checkStatus200ForLink(dashboardPages.btnCardTitle);
-                // });
-                // cy.log(`item #${index}: Author - should be clickable`);
-                // it(`item #${index}: Author - should be clickable`, () => {
-                  // checkStatus200ForLink(dashboardPages.btnCardAuthor);
-                // });
+                  arritemArr.push(item);
+                });
               });
-            // });
 
-            
-          });
+            if (checkIfElementExist(btnNext)) {
+              cy.writeFile(
+                "cypress/downloads/teachingsLibrary_item.json",
+                arritemArr
+              );
 
-          
-
-          if (checkIfElementExist(btnNext)) {
-            
-            cy.writeFile('cypress/downloads/teachingsLibrary_item.json', arritemArr);
-
-            cy.get(btnNext)
-              .click()
-              .then(() => maybeClickNext(page + 1));
+              cy.get(btnNext)
+                .click()
+                .then(() => maybeClickNext(page + 1));
+            }
           }
-        }
-      });
+        });
+    }
   }
 
   describe("Pagination", () => {

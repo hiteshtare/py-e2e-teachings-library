@@ -37,7 +37,10 @@ export function checkIfElementNotExist(selector: string) {
   return cy.get(selector).should("not.exist");
 }
 
-export function checkIfElementIsClickable(selector: string, takeScreenshot = false) {
+export function checkIfElementIsClickable(
+  selector: string,
+  takeScreenshot = false
+) {
   cy.get(selector).click();
 
   if (takeScreenshot) {
@@ -63,12 +66,16 @@ export function checkStatus200ForLink(selector: string) {
 }
 
 export async function getElementText(selector: string) {
-  let text: string = await new Cypress.Promise<string>((resolve) => {
-    cy.get(selector)
-      .invoke("text")
-      .then((text) => {
-        resolve(text.toString());
-      });
+  let text: string = await new Cypress.Promise<string>((resolve, reject) => {
+    if (checkIfElementExist(selector))
+      cy.get(selector)
+        .invoke("text")
+        .then((text) => {
+          resolve(text.toString());
+        });
+    else {
+      reject("");
+    }
   });
   return text;
 }
