@@ -5,7 +5,7 @@ import { FilterPages } from "./pages/filter.page";
 
 const filterPages = new FilterPages();
 
-describe.skip("Filter menu", () => {
+describe("Filter menu", () => {
   beforeEach(() => {
     cy.visit("/teachings-library");
 
